@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sunnyside Coral Ridge - Luxury Vacation Rental</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-fluid bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Header Start -->
+      <div class="container-fluid bg-dark px-0">
+        <div class="row gx-0">
+          <div class="col-lg-3 bg-dark d-none d-lg-block">
+            <a
+              href="index.html"
+              class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
+            >
+              <h1 class="m-0 text-primary text-uppercase">Sunnyside</h1>
+            </a>
+          </div>
+          <div class="col-lg-9">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+              <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 text-primary text-uppercase">Sunnyside</h1>
+              </a>
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-between"
+                id="navbarCollapse"
+              >
+                <div class="navbar-nav mr-auto py-0">
+                  <a href="index.html" class="nav-item nav-link">Home</a>
+                  <a href="./index.html#about" class="nav-item nav-link"
+                    >About</a
+                  >
+                  <a href="./index.html#Amenities" class="nav-item nav-link"
+                    >Amenities</a
+                  >
+                  <a href="./index.html#rooms" class="nav-item nav-link"
+                    >Rooms</a
+                  >
+                  <a href="gallery.html" class="nav-item nav-link active"
+                    >Gallery</a
+                  >
+                </div>
+                <a
+                  href="booking.html"
+                  class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block"
+                  >Book Now<i class="fa fa-arrow-right ms-3"></i
+                ></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Header End -->
+
+      <!-- Room Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="mb-5">
+              Explore Our
+              <span class="text-primary text-uppercase">Gallery</span>
+            </h1>
+          </div>
+          <div class="row g-4">
+            <!-- First Row - Three Bedrooms -->
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h4 class="section-title text-center text-primary text-uppercase">
+                Bedrooms
+              </h4>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/master-bedroom-mainfloor.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">King Master Suite</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/master-bedroom-upstairs.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">King Master Suite #2</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/Bedroom-with-two-queens.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Queen Beds</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h4 class="section-title text-center text-primary text-uppercase">
+                Kitchen
+              </h4>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/dining-table.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Kitchen Dining</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/kitchen.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Kitchen Dining</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/kitchen-stove.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Kitchen</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h4 class="section-title text-center text-primary text-uppercase">
+                Living Area
+              </h4>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/Family-room-upstairs.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Family Room Upstairs</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/family-room-game-table.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Family Game Table</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/living-room.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Living Room</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h4 class="section-title text-center text-primary text-uppercase">
+                Bathroom
+              </h4>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/masterbath-main.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Masterbath Main</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/masterbath-upstairs-vanity.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Masterbath Upstairs</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/masterbathroom-tub-main.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Master Bathroom Tub</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h4 class="section-title text-center text-primary text-uppercase">
+                Dining
+              </h4>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/dining-table.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Dining Area</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/kitchen.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Dining Area</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/large.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Dining Area</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="text-center wow fadeInUp"
+              data-wow-delay="0.1s"
+              id="pool"
+            >
+              <h4 class="section-title text-center text-primary text-uppercase">
+                Pool
+              </h4>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/Pool-area.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Upper Pool Area</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/upper-poolarea.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Pool Area</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/view-of-poolarea-from-masterbedroom.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Balcony View</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h4 class="section-title text-center text-primary text-uppercase">
+                Exterior
+              </h4>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/full-frontal.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Exterior View</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/porch-main-entrance.jpg"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Front Door Entry</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/back-patio-table-chairs-bbq.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Exterior</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="text-center wow fadeInUp"
+              id="Amenities"
+              data-wow-delay="0.1s"
+            >
+              <h4 class="section-title text-center text-primary text-uppercase">
+                Amenities
+              </h4>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/club-house.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Club House</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/clubhouse-workout-room.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Workout Room</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/washer-dryer-area.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Laundry Room</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-center wow fadeInUp"
+              data-wow-delay="0.1s"
+              id="activities"
+            >
+              <h4 class="section-title text-center text-primary text-uppercase">
+                What's nearby
+              </h4>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/Zions-national-park.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Zion National Park</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/sand-hollow-side-by-side.jpg"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Mad Moose Rentals</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="room-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid"
+                    src="img/sand-hollow-reservior.webp"
+                    alt="Master Bedroom"
+                  />
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Sand Hollow Reservoir</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Room End -->
+
+     
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-dark text-light footer wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container pb-5">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-4">
+              <div class="bg-primary rounded p-4">
+                <a href="index.html"
+                  ><h1 class="text-white text-uppercase mb-3">Sunnyside</h1></a
+                >
+                <p class="text-white mb-0">
+                  A luxury vacation rental in the heart of Washington Utah's
+                  Coral Ridge Community. Perfect for families looking to explore
+                  Southern Utah's amazing attractions.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h6
+                class="section-title text-start text-primary text-uppercase mb-4"
+              >
+                Contact
+              </h6>
+              <p class="mb-2">
+                <i class="fa fa-map-marker-alt me-3"></i>Coral Ridge Community,
+                Washington, UT
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-phone-alt me-3"></i>+1 123 123 1234
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-envelope me-3"></i>info@sunnyside.com
+              </p>
+              <div class="d-flex pt-2">
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+              <div class="row gy-5 g-4">
+                <div class="col-md-6">
+                  <h6
+                    class="section-title text-start text-primary text-uppercase mb-4"
+                  >
+                    Key Features
+                  </h6>
+                  <a class="btn btn-link" href="./gallery.html#pool""
+                    >Pools and Hot Tubs</a
+                  >
+                  <a class="btn btn-link" href="./gallery.html#Amenities">Fitness Center</a>
+                  <a class="btn btn-link" href="./gallery.html#activities">Zion National Park</a>
+                  <a class="btn btn-link" href="./gallery.html#activities">Running Trails Nearby</a>
+                  <a class="btn btn-link" href="./gallery.html#activities">Golf Course</a>
+                </div>
+                <div class="col-md-6">
+                  <h6
+                    class="section-title text-start text-primary text-uppercase mb-4"
+                  >
+                    Amenities
+                  </h6>
+                  <a class="btn btn-link" href="./gallery.html">Smart TV’s</a>
+                  <a class="btn btn-link" href="./gallery.html"
+                    >Fully Equipped Kitchen</a
+                  >
+                  <a class="btn btn-link" href="./gallery.html">BBQ Grill</a>
+                  <a class="btn btn-link" href="./gallery.html">EV Charging</a>
+                  <a class="btn btn-link" href="./gallery.html"
+                    >BBQ Utensils & Grill Brusht</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy;
+                <a class="border-bottom" href="#">Sunnyside Vacation Rental</a>,
+                All Right Reserved.
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <div class="footer-menu">
+                  <a href="index.html">Home</a>
+                  <a href="./about.html">About</a>
+                  <a href="gallery.html">Gallery</a>
+                  <a
+                    href="https://www.stgeorgeutahvacationrentals.com/rentals/sunnyside"
+                    >For scheduling</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
